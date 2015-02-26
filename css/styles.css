@@ -1,7 +1,7 @@
 .jumbotron {
 
 	background-image: url("../img/_MG_3019-2.jpg");
-	background-size: 100%;
+	background-size: cover;
 }
 
 .jumbotron p {
