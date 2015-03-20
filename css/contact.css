@@ -1,0 +1,41 @@
+* {
+	font-size: 100%;
+	box-sizing: border-box;
+}
+body {
+	background-color: #ffeeea;
+	color: #34495e
+}
+.jumbotron {
+	background-color: inherit;
+	text-align: center;
+}
+.contact_info {
+	background-color: #faf9f5;
+	padding: 50px;
+	text-align: center;
+	border: 2px solid;
+	border-radius: 50px;
+}
+.flag {
+	position: absolute;
+	top: 2px;
+	right: -5px;
+	height: 200px;
+	width: 350px;
+}
+.plane {
+	position: absolute;
+	top: 20px;
+	left: 5px;
+
+}
+/*Typography*/
+p {
+	font-family: Georgia,Times,Times New Roman,serif; 
+}
+h1,
+h2,
+h3 {
+	font-family: Futura, Helvetica, Arial, san-serif;
+}
