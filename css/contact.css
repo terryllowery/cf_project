@@ -16,19 +16,46 @@ body {
 	text-align: center;
 	border: 2px solid;
 	border-radius: 50px;
+	margin-bottom: 20px
 }
 .flag {
 	position: absolute;
-	top: 2px;
+	botom: 2px;
 	right: -5px;
 	height: 200px;
 	width: 350px;
 }
 .plane {
 	position: absolute;
-	top: 20px;
+	botom: 2px;
 	left: 5px;
 
+}
+.nav {
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	padding: 10px 10px 10px;
+}
+.nav a:hover {
+	color: #428bca;
+	text-decoration: none;
+}
+.nav ul {
+	float: right;
+}
+.nav ul li {
+	display: inline;
+	float: left;
+}
+.nav ul li a {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	text-decoration: none;
+	padding: 10px;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
 }
 /*Typography*/
 p {

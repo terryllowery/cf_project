@@ -1,37 +1,54 @@
+body {
+	background-color: #ffeeea;
+}
+.nav {
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	padding: 10px 10px 10px;
+}
+.nav a:hover {
+	color: #428bca;
+	text-decoration: none;
+}
+.nav ul {
+	float: right;
+}
+.nav ul li {
+	display: inline;
+	float: left;
+}
+.nav ul li a {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	text-decoration: none;
+	padding: 10px;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
 .jumbotron {
 
 	background-image: url("../img/_MG_3019-2.jpg");
 	background-size: cover;
 }
-
 .jumbotron p {
 
 	color: white;
-
 }
-
 h1.banner {
-
 	font-family: 'Raleway', sans-serif;
 }
-
 @media screen and ( max-width: 480px) {
-
 p.banner {
-
-	font-size: 1em;
-	
+	font-size: 1em;	
 }
-
 h1.banner {
 	font-size: 2em;
 	color: white;
 }
-
 }
-
 @media screen and ( min-width: 481px) and ( max-width: 800px) {
-
 	p.banner {
 		font-size: 1.5em;
 	}
@@ -40,11 +57,9 @@ h1.banner {
 		color: white;
 	}
 }
-
 @media screen and (min-width: 801px) {
 	p.banner {
 		font-size: 1.75em;
-
 	}
 	h1.banner {
 		font-size: 3em;
