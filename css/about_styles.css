@@ -5,6 +5,7 @@
 .container {
 	width: 80%;
 	margin: 0 auto;
+	padding: 40px;
 }
 
 .header h1 {
@@ -16,6 +17,10 @@
 	display: inline-block;
 	position: relative;
 	float: left;
+	z-index: -1;
+}
+.skills {
+	z-index: -1;
 }
 
 .column {
