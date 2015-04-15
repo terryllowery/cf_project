@@ -1,0 +1,88 @@
+* {
+	box-sizing: border-box; 
+}
+body {
+	background-color: #ffeeea;
+	color: #34495e;
+	color: darkgray;	
+}
+.nav {
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	padding: 10px 10px 10px;
+}
+.nav a:hover {
+	color: #428bca;
+	text-decoration: none;
+}
+.nav ul {
+	float: right;
+}
+.nav ul li {
+	display: inline;
+	float: left;
+}
+.nav ul li a {
+	font-family: Helvetica, Arial,  sans-serif;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	text-decoration: none;
+	padding: 10px;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+.container {
+	
+}
+.container h1 {
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.panel-title {
+	text-align: center;
+	background-color: lightgray;
+	font-size: 1.75em;
+}
+.panel-title a {
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+	letter-spacing: 0.05em;
+}
+.panel-title a:hover {
+	
+	color: #428bca;;
+}
+.panel-body {
+	text-align: center;
+	font-size: 1.3em;
+}
+.faq-text {
+  	background-color: #faf9f5;
+	padding: 50px;
+	text-align: center;
+	 border: 2px solid;
+	border-radius: 50px;
+	margin-bottom: 20px; 
+}
+.tech-lists  {
+	text-align: center;
+}
+.tech-lists {
+	list-style-type: none;
+}
+/* Typography */
+* {
+	font-family: Garamond, Caslon, Minion, serif;
+	font-size: 100%;
+}
+h1,
+h2,
+h3 {
+	font-family: Helvetica, Arial,  sans-serif;
+	font-weight: bold;
+}
