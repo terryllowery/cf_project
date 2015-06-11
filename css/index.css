@@ -1,0 +1,43 @@
+* {
+    font-size: 100%;
+}
+body {
+    position: relative;
+}
+/*.nav {
+    float: right;
+}*/
+h1 {
+    z-index: 1;
+}
+#Home .carousel-caption {
+    top: 5%;
+    bottom: auto;
+}
+#first_container {
+    margin-bottom: 10px;
+}
+#Contact {
+    background-image: url("../img/IMG_4100.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    padding: 100px;
+    padding-top: 50px;
+    height: 400px;
+}
+#Contact a {
+    color: rgb(255, 255, 255);
+}
+
+/* Typography */
+#Contact {
+
+}
+#Contact h1 {
+    font-size: 1.75em;
+}
+#Contact h2 {
+    font-size: 1.0em;
+    display: inline;
+}
