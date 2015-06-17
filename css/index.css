@@ -4,30 +4,47 @@
 body {
     position: relative;
 }
-/*.nav {
-    float: right;
-}*/
+.navbar {
+    margin-bottom: 200px;
+}
 h1 {
     z-index: 1;
+}
+#Home {
+    height: 400px;
+    padding-bottom: 60px;
 }
 #Home .carousel-caption {
     top: 5%;
     bottom: auto;
 }
-#first_container {
-    margin-bottom: 10px;
+#About {
+    background-color: #23527c;
+    height: 400px;
+    padding-top: 60px;
+    margin-top: 10px;
+}
+#Work {
+    height: 400px;
+    padding-top: 60px;
 }
 #Contact {
     background-image: url("../img/IMG_4100.jpg");
     background-attachment: fixed;
     background-size: cover;
     color: rgb(255, 255, 255);
-    padding: 100px;
-    padding-top: 50px;
-    height: 400px;
+    padding: 50px;
+    padding-top: 60px;
+    height: 600px;
+
 }
 #Contact a {
     color: rgb(255, 255, 255);
+}
+#Faq {
+    height: 400px;
+    padding-top: 60px;
+    padding-bottom: 800px;
 }
 
 /* Typography */

@@ -49,14 +49,14 @@
                 <li><a href="#About">About</a></li>
                 <li><a href="#Work">Work</a> </li>
                 <li><a href="#Contact">Contact</a></li>
-                <li><a href="#Faq">FAQ</a> </li>
+                <li><a href="#Faq">FAQ</a></li>
             </ul>
         </div> <!-- End of navbar-collapse collapse -->
     </div> <!-- End of first container -->
 </div> <!-- End navbar -->
 <!-- Content section -->
-<div class="container" id="Home" data-stellar-ratio="2">
-    <div id="carousel-main" class="carousel slide" data-ride="carousel">
+<div class="container" id="Home">
+        <div id="carousel-main" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -71,8 +71,8 @@
                 <div class="carousel-caption">
                     <h1>What We Do</h1>
                     <p>System's engineering, Web Design, Custom Web Applications</p>
-                </div>
-            </div>
+                </div> <!-- End of carousel-caption -->
+            </div> <!--End of item class-->
 
             <div class="item">
                 <img src="./img/portfolioheroimage2.jpg" />
@@ -84,15 +84,12 @@
                         <li>Beach House Rentals</li>
                         <li>Property Management</li>
                     </ul>
-
-                </div>
+                </div> <!--End of carousel-caption-->
             </div>  <!-- End of class="item" -->
             <div class="item">
                 <img src="./img/portfolioheroimage3.jpeg" />
-
                 <div class="carousel-caption">
-
-                    <h2>Skills</h2>
+                    <h1>Skills</h1>
                     <ul class="skill_list">
                         <li>Systems engineering</li>
                         <li>Systems administration</li>
@@ -102,10 +99,9 @@
                         <li>Ruby on Rails</li>
                         <li>Private Pilot</li>
                     </ul>
-
-                </div>
-            </div>
-        </div>
+                </div> <!--End of carousel-caption-->
+            </div><!--End of item class-->
+        </div><!--End of carousel-inner slide -->
 
         <!-- Controls -->
         <a class="left carousel-control" href="#carousel-main" role="button" data-slide="prev">
@@ -116,7 +112,8 @@
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
-    </div>
+    </div><!--End of caraousel-main -->
+
 </div> <!-- End Home container -->
 <div class="container" id="About">
     <h1>Terry's story</h1>
@@ -139,20 +136,21 @@
 </div> <!-- End About container -->
 <div class="container" id="Work">
     <a href="http://rentaplane.org/">
-        <h2>rentaplane.aero</h2>
+        <h1>rentaplane.aero</h1>
     </a>
     <p class="text-center">rentaplane.aero is a web based application to track scheduling of airplanes and instructors for flight
         clubs and schools. rentaplane.aero is designed on a mobile first design and offers notifications via text
         and email</p>
-    <h1>Work 2</h1>
-</div> <!-- End Work2 container -->
+    <h1>Aerodigm Aviation</h1>
+    <p>Aerodigm aviation is a charter flying and management site. The company offers jet charters and pilot services.</p>
+</div> <!-- End Work container -->
 <div class="container" id="Contact">
     <h1>Contact</h1>
     <a href="tel:2103166720" class="glyphicon glyphicon-phone-alt"> Phone:(210)316-6720</a><br />
-    <a href="mailto:terry@lowerytech.net" class="glyphicon glyphicon-envelope"> terry@lowerytech.net</a> <br />
+    <a href="mailto:terry@lowerytech.net" class="glyphicon glyphicon-envelope"> terry@lowerytech.net</a><br />
 </div> <!-- End Contact container -->
 <div class="container" id="Faq">
-    <h1>frequently asked questions</h1>
+    <h1>Questions</h1>
     <div class="container faq-text">
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
             <div class="panel panel-default">
@@ -162,28 +160,27 @@
                             What kind of work do we do?
                         </a>
                     </h4>
-                </div>
+                </div><!--End of panel-heading class-->
                 <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                     <div class="panel-body">
                         <div class="col-sm-12">
                             We mainly work on building custom web sites and applications, but if you have any computer system or network job please ask as if we can help you. Here are the following things we have experience with.
-                        </div>
+                        </div><!--End of col-sm-12-->
                         <div class="col-sm-6 pull-right">
                             <ul class="tech-lists">
                                 <li>Microsoft Active Directory</li>
                                 <li>Linux and Microsoft integrations</li>
-
                             </ul>
-                        </div>
+                        </div><!--End col-sm-6 pull-right-->
                         <div class="col-sm-6">
                             <ul class="tech-lists">
                                 <li>LAN and WAN environments</li>
                                 <li>Guest and secure wireless networks</li>
                             </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                        </div><!--End col-sm-6-->
+                    </div><!--End panel-body-->
+                </div><!--End collapseOne-->
+            </div><!--End of panel panel-default -->
             <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="headingTwo">
                     <h4 class="panel-title">
@@ -191,13 +188,13 @@
                             Why design web sites and applications?
                         </a>
                     </h4>
-                </div>
+                </div><!--End id="headingTwo"-->
                 <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                     <div class="panel-body">
                         We believe in helping people get out on the web. The web can be a powerful form of communication and a great way to introduce people to your business. Sometimes people just need a small helping hand building a simple page. Other times it’s a big application or ecommerce site.
-                    </div>
-                </div>
-            </div>
+                    </div><!--End panel-body-->
+                </div><!--End id collapseTwo-->
+            </div><!--End panel panel-default-->
             <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="headingThree">
                     <h4 class="panel-title">
