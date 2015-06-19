@@ -4,14 +4,13 @@
 body {
     position: relative;
 }
-.navbar {
-    margin-bottom: 200px;
+.nav-tabs {
+    border-bottom-style: none;
 }
 h1 {
     z-index: 1;
 }
 #Home {
-    height: 400px;
     padding-bottom: 60px;
 }
 #Home .carousel-caption {
