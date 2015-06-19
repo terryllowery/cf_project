@@ -7,8 +7,17 @@ body {
 .nav-tabs {
     border-bottom-style: none;
 }
-h1 {
-    z-index: 1;
+/*h1 {*/
+    /*z-index: 1;*/
+/*}*/
+.carousel-caption ul {
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.carousel-caption ul li {
+    margin-left: 0px;
+    padding-left: 0px;
 }
 #Home {
     padding-bottom: 60px;
