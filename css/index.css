@@ -7,9 +7,9 @@ body {
 .nav-tabs {
     border-bottom-style: none;
 }
-/*h1 {*/
-    /*z-index: 1;*/
-/*}*/
+.anchor {
+    padding-top: 60px;
+}
 .carousel-caption ul {
     list-style: none;
     margin-left: 0px;
@@ -19,9 +19,6 @@ body {
     margin-left: 0px;
     padding-left: 0px;
 }
-#Home {
-    padding-bottom: 60px;
-}
 #Home .carousel-caption {
     top: 5%;
     bottom: auto;
@@ -29,12 +26,9 @@ body {
 #About {
     background-color: #23527c;
     height: 400px;
-    padding-top: 60px;
-    margin-top: 10px;
 }
 #Work {
     height: 400px;
-    padding-top: 60px;
 }
 #Contact {
     background-image: url("../img/IMG_4100.jpg");
@@ -42,17 +36,14 @@ body {
     background-size: cover;
     color: rgb(255, 255, 255);
     padding: 50px;
-    padding-top: 60px;
-    height: 600px;
-
+    height: 400px;
 }
 #Contact a {
     color: rgb(255, 255, 255);
 }
 #Faq {
     height: 400px;
-    padding-top: 60px;
-    padding-bottom: 800px;
+    /*padding-bottom: 800px;*/
 }
 
 /* Typography */
