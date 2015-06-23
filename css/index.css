@@ -23,12 +23,20 @@ body {
     top: 5%;
     bottom: auto;
 }
+#Home {
+    margin-bottom: 10px;
+}
 #About {
-    background-color: #23527c;
     height: 400px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-bottom: 10px;
 }
 #Work {
     height: 400px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-bottom: 10px;
 }
 #Contact {
     background-image: url("../img/IMG_4100.jpg");
@@ -43,13 +51,10 @@ body {
 }
 #Faq {
     height: 400px;
-    /*padding-bottom: 800px;*/
+    padding-bottom: 800px;
 }
 
 /* Typography */
-#Contact {
-
-}
 #Contact h1 {
     font-size: 1.75em;
 }
