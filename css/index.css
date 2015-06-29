@@ -53,21 +53,21 @@ body {
     height: 400px;
     padding-bottom: 500px;
 }
-/*footer {*/
-    /*background-color: #080808;*/
-    /*height: 60px;*/
-    /*color: white;*/
-    /*position: fixed;*/
-    /*bottom: 0px;*/
-    /*width: 100%;*/
-    /*line-height: 50px;*/
+footer {
+    background-color: #080808;
+    height: 60px;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    line-height: 50px;
 
-/*}*/
+}
 .social-media {
     float: right;
-    vertical-align: middle;
-    display: inline-block;
-    margin: 0 0;
+    position: absolute;
+    right: 10px;
+    top: 22%;
 }
 
 /* Typography */
