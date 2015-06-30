@@ -51,7 +51,8 @@ body {
 }
 #Faq {
     height: 400px;
-    padding-bottom: 700px;
+    padding-bottom: 1300px;
+    /*TODO look into creating a media query fo the padding on the bottom id */
 }
 footer {
     background-color: #080808;
