@@ -54,6 +54,16 @@ body {
     padding-bottom: 1300px;
     /*TODO look into creating a media query fo the padding on the bottom id */
 }
+@media screen and (max-height: 600px){
+    #Faq {
+        padding-bottom: 600px;
+    }
+}
+@media screen and (max-height: 800px){
+    #faq {
+        padding-bottom: 800px;
+    }
+}
 footer {
     background-color: #080808;
     height: 60px;
