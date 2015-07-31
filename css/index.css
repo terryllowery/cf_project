@@ -44,7 +44,6 @@ body {
     background-size: cover;
     color: rgb(255, 255, 255);
     height: 400px;
-
 }
 #Contact a {
     color: rgb(255, 255, 255);
@@ -71,8 +70,6 @@ footer {
     position: fixed;
     bottom: 0px;
     width: 100%;
-    /*line-height: 50px;*/
-
 }
 .social-media {
     float: right;
@@ -85,9 +82,7 @@ footer {
     float: right;
     position: absolute;
     right: 50px;
-    /*top: 22%;*/
 }
-
 /* Typography */
 #Contact h1 {
     font-size: 1.75em;
