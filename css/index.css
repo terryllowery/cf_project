@@ -43,10 +43,17 @@ body {
     background-attachment: fixed;
     background-size: cover;
     color: rgb(255, 255, 255);
-    height: 400px;
+    height: 500px;
 }
 #Contact a {
     color: rgb(255, 255, 255);
+}
+#Contact textarea {
+    resize: none;
+    color: black;
+}
+.form-control {
+    width: 40%;
 }
 #Faq {
     height: 400px;

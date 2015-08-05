@@ -176,6 +176,18 @@
     <h1>Contact</h1>
     <a href="tel:2103166720" class="glyphicon glyphicon-phone-alt"> Phone:(210)316-6720</a><br/>
     <a href="mailto:terry@lowerytech.net" class="glyphicon glyphicon-envelope"> terry@lowerytech.net</a><br/>
+    <form name="form-contact" method="post">
+        <div class="form-group">
+            <label for="form-contact-name">Name:</label><br />
+            <input type="text" name="name" id="form-contact-name" class="form-control" required="required" title="Enter your full name." minlength="7" /><br />
+            <label for="form-contact-email">Email:</label><br />
+            <input type="email" name="email" id="form-contact-email" class="form-control" required="required" title="Put your email address here." /><br />
+            <label for="form-contact-message">Message:</label><br />
+            <textarea name="message" id="form-contact-message" class="message-box form-control" placeholder="Type your message here..." rows="4" cols="50" required="required"
+                      title="Leave us feedback in this box."></textarea><br />
+            <button type="submit" class="btn btn-primary">Submit information.</button>
+        </div>
+    </form>
 </div>
 <!-- End Contact container -->
 <div class="container anchor" id="Faq">
