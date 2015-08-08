@@ -29,6 +29,8 @@
 <script src="js/bootstrap.min.js"></script>
 <!--index.js file-->
 <script src="js/index.js"></script>
+<!--Jquery media script -->
+<script src="js/jquery.media.js" type="text/javascript"></script>
 
 <!--Facebook java code-->
 <div id="fb-root"></div>
@@ -199,8 +201,31 @@
 </div>
 <!-- End Contact container -->
 <div class="container anchor" id="Faq">
-    <h1>Questions</h1>
+    <div class="row">
+        <h2 class="learn-more">Learn More</h2>
+            <div class="modal-button">
+                <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">
+                    View Resume/CV
+                </button>
+            </div>
+    </div>
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+         aria-hidden="true" data-backdrop="static" and data-keyboard="false">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Resume</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe id="modalframe" src="docs/Lowery_Terry_resume.pdf"></iframe>
+                </div>
 
+            </div>
+        </div>
+    </div>
     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
         <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingOne">
@@ -211,6 +236,8 @@
                     </a>
                 </h4>
             </div>
+
+        </div>
             <!--End of panel-heading class-->
             <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                 <div class="panel-body">
