@@ -60,6 +60,23 @@ body {
     padding-bottom: 400px;
     /*TODO look into creating a media query fo the padding on the bottom id */
 }
+.learn-more {
+    text-align: left;
+    float: left;
+    margin: 20px;
+}
+.modal-button {
+    float: right;
+    padding: 15px;
+}
+.modal-body {
+    height: 800px;
+}
+#modalframe {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
 @media (min-height: 600px){
     #Faq {
         padding-bottom: 600px;
