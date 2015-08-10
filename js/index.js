@@ -26,3 +26,12 @@ $('.navbar-nav a').click(function () {
     });
     return false;
 });
+$(function() {
+    $('#type_of_work').tooltip();
+});
+$(function () {
+    $('#the_future').tooltip();
+});
+$(function() {
+    $('#flying_quote').tooltip();
+});
