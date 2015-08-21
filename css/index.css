@@ -77,16 +77,6 @@ body {
     width: 100%;
     height: 100%;
 }
-@media (min-height: 600px){
-    #Faq {
-        padding-bottom: 600px;
-    }
-}
-@media screen and (min-height: 800px){
-    #faq {
-        padding-bottom: 800px;
-    }
-}
 footer {
     background-color: #080808;
     height: 40px;
@@ -106,6 +96,17 @@ footer {
     float: right;
     position: absolute;
     right: 50px;
+}
+/* Media selectors */
+@media (min-height: 600px){
+    #Faq {
+        padding-bottom: 600px;
+    }
+}
+@media screen and (min-height: 800px){
+    #faq {
+        padding-bottom: 800px;
+    }
 }
 /* Typography */
 #Contact h1 {
