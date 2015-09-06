@@ -19,11 +19,11 @@ body {
     margin-left: 0px;
     padding-left: 0px;
 }
-#Home .carousel-caption {
+#home .carousel-caption {
     top: 5%;
     bottom: auto;
 }
-#Home {
+#home {
     margin-bottom: 10px;
 }
 /* TODO This "boxed-section seems less semantic but more efficient */
@@ -32,32 +32,32 @@ body {
     border-radius: 50px;
 }
 /* TODO look into making each section with links a standard height */
-#About {
+#about {
     height: 400px;
     margin-bottom: 10px;
 }
-#Work {
+#work {
     height: 400px;
     margin-bottom: 50px;
 }
-#Contact {
+#contact {
     background-image: url("../img/IMG_4100.jpg");
     background-attachment: fixed;
     background-size: cover;
     color: rgb(255, 255, 255);
     height: 500px;
 }
-#Contact a {
+#contact a {
     color: rgb(255, 255, 255);
 }
-#Contact textarea {
+#contact textarea {
     resize: none;
     color: black;
 }
 .form-control {
     width: 80%;
 }
-#Faq {
+#faq {
     height: 400px;
     padding-bottom: 400px;
 }
@@ -116,10 +116,10 @@ footer {
     font-family: Garamond, Caslon, Minion, serif;
     font-size: 100%;
 }
-#Contact h1 {
+#contact h1 {
     font-size: 1.75em;
 }
-#Contact h2 {
+#contact h2 {
     font-size: 1.0em;
     display: inline;
 }
