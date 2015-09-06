@@ -19,8 +19,6 @@
 
     <!-- Custom Stylesheet -->
     <link href="css/index.css" rel="stylesheet">
-
-
 </head>
 <body data-spy="scroll" data-target=".navbar">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -61,6 +59,7 @@
     </div>
     <!-- End of first container -->
 </nav>
+<main>
 <!-- End navbar -->
 <!-- Content section -->
 <div class="container anchor" id="Home">
@@ -136,29 +135,31 @@
 
 </div>
 <!-- End Home container -->
-<div class="container anchor" id="About">
-    <h1>Terry's story</h1>
+<article>
+    <div class="container anchor boxed-section" id="About">
+        <h1>Terry's story</h1>
 
-    <p>
-        Terry Lowery is a systems engineer for Rackspace, the #1 managed cloud company &copy;,
-        headquartered in San Antonio, TX. Terry has worked in the computer field since 1999.
-        During that time, he migrated an accounting and point of sale system from a small NT 4.0
-        domain to Windows 2000 Active directory. This gave him an opportunity to learn general
-        principals in accounting, point of sale systems, and later trained staff on how to use
-        them. After discovering his passion for computer systems, he was given the chance to work
-        with school systems, colleges, state governments, and consulting companies.
-        In 2010, Terry decided to leave the four-seasoned state of Pennsylvania to move to big
-        beautiful Texas to begin his career with Rackspace.
-    </p>
+        <p>
+            Terry Lowery is a systems engineer for Rackspace, the #1 managed cloud company &copy;,
+            headquartered in San Antonio, TX. Terry has worked in the computer field since 1999.
+            During that time, he migrated an accounting and point of sale system from a small NT 4.0
+            domain to Windows 2000 Active directory. This gave him an opportunity to learn general
+            principals in accounting, point of sale systems, and later trained staff on how to use
+            them. After discovering his passion for computer systems, he was given the chance to work
+            with school systems, colleges, state governments, and consulting companies.
+            In 2010, Terry decided to leave the four-seasoned state of Pennsylvania to move to big
+            beautiful Texas to begin his career with Rackspace.
+        </p>
 
-    <p>
-        During Terry's downtime, he enjoys the outdoors, flying light airplanes, writing code,
-        and taking pictures. Family is always included in most of Terry's outdoor adventures.
-        Terry is a father of two beautiful kids and engaged to a wonderful Texas lady.
-    </p>
-</div>
+        <p>
+            During Terry's downtime, he enjoys the outdoors, flying light airplanes, writing code,
+            and taking pictures. Family is always included in most of Terry's outdoor adventures.
+            Terry is a father of two beautiful kids and engaged to a wonderful Texas lady.
+        </p>
+    </div>
+</article>
 <!-- End About container -->
-<div class="container anchor" id="Work">
+<div class="container anchor boxed-section" id="Work">
     <a href="http://rentaplane.org/">
         <h1>rentaplane.aero</h1>
     </a>
@@ -226,7 +227,7 @@
             </div>
         </div>
     </div>
-    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel-group learn-more-body" id="accordion" role="tablist" aria-multiselectable="true">
         <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingOne">
                 <h4 class="panel-title">
@@ -309,6 +310,7 @@
             </div>
         </div>
     </div>
+</main>
 <footer>
     <div class="row center">
         <div class="col-xs-6">
@@ -323,6 +325,7 @@
             </div>
         </div>
 </footer>
+
 </body>
 </html>
 
