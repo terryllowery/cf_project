@@ -1,23 +1,31 @@
 $(document).ready(function() {
     $(".message-box").css("background-color", "pink");
     $("#form-contact-message").on("keyup", function(){
+        const MAX_MBOX_SIZE = 50; //This is the max size of the message box.
+
         var charCount = $("#form-contact-message").val().length;
-        console.log(charCount);
         $("#char-count").html(charCount);
 
-        if (charCount > 50 ) {
+        if (charCount > MAX_MBOX_SIZE ) {
             $("#char-count").css("color", "red");
-            console.log("charCount is greater than 50");
+            console.info("charCount is greater than 50");
         }
         else {
             $("#char-count").css("color", "white");
-            console.log("charCount is currently: " + charCount);
+            console.info("charCount is currently: " + charCount);
         }
 
     });
+    var servicesRow = $(".services-row");
+        for (var i = 0; i < servicesRow.length; ++i) {
+            if (i%2 === 0) {
+            $(servicesRow[i]).css("background-color", "pink");
+            }
+        }
+
     $("#submit-button").on("click", function() {
         var message = $(".message-box").val();
-        console.log("clicked!");
+        console.info("clicked!");
         console.log(message);
         $("#visible-comment").html(message.toUpperCase());
         $("#visible-comment").css("color", "red");
