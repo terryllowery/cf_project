@@ -217,131 +217,145 @@
             </div>
         <br />
     </div>
-    <div class="row services-container col-lg-1">
-        <table>
-            <tr class="services-row">
-                <th>Services</th>
-                <th>Service1</th>
-                <th>Service2</th>
-            </tr>
-            <tr class="services-row">
-                <td>Feature1</td>
-                <td>Property1</td>
-                <td>Property2</td>
-            </tr>
-            <tr class="services-row">
-                <td>Feature2</td>
-                <td>Property1</td>
-                <td>Property2</td>
-            </tr>
-            <tr class="services-row">
-                <td>Feature3</td>
-                <td>Property1</td>
-                <td>Property2</td>
-            </tr>
-        </table>
+    <div class="row">
+        <div class="container">
+            <table class="service-table">
+                <tr class="services-row">
+                    <th>Services</th>
+                    <th>Single Page Static Website</th>
+                    <th>Dynamic Website</th>
+                    <th>Web Application</th>
+                </tr>
+                <tr class="services-row">
+                    <td class="service-feature">Mobile Browser Support</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                </tr>
+                <tr class="services-row">
+                    <td class="service-feature">Template or Custom</td>
+                    <td>Template</td>
+                    <td>Custom</td>
+                    <td>Custom</td>
+                </tr>
+                <tr class="services-row">
+                    <td class="service-feature">Interactive Contact Forms</td>
+                    <td>No</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                </tr>
+                <tr class="services-row">
+                    <td class="service-feature">Support</td>
+                    <td>No</td>
+                    <td>Included For First Month</td>
+                    <td>Included For Three Months</td>
+                </tr>
+            </table>
+        </div>
     </div>
     <div class="row">
-    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-         aria-hidden="true" data-backdrop="static" and data-keyboard="false">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Resume</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <iframe id="modalframe" src="docs/Lowery_Terry_resume.pdf"></iframe>
-                </div>
+        <div class="container">
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+             aria-hidden="true" data-backdrop="static" and data-keyboard="false">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Resume</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe id="modalframe" src="docs/Lowery_Terry_resume.pdf"></iframe>
+                    </div>
 
+                </div>
             </div>
         </div>
+            <div class="panel-group learn-more-body" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
+                               aria-controls="collapseOne">
+                                What kind of work do we do?
+                            </a>
+                        </h4>
+                    </div>
+                </div>
+                    <!--End of panel-heading class-->
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            <div class="col-sm-12">
+                                We mainly work on building <a href="#collapseOne" title="Using HTML5, CSS, Bootstrap, Jquery/Javascript, and Ruby on Rails" id="type_of_work">
+                                custom web sites and applications</a>, but if you have any computer
+                                system or network job please ask us if we can help you. Here are the following things we have
+                                experience with.
+                            </div>
+                            <!--End of col-sm-12-->
+                            <div class="col-sm-6 pull-right">
+                                <ul class="tech-lists">
+                                    <li>Microsoft Active Directory</li>
+                                    <li>Linux and Microsoft integrations</li>
+                                    <li>Point of Sale Systems</li>
+                                </ul>
+                            </div>
+                            <!--End col-sm-6 pull-right-->
+                            <div class="col-sm-6">
+                                <ul class="tech-lists">
+                                    <li>LAN and WAN environments</li>
+                                    <li>Guest and secure wireless networks</li>
+                                    <li>Internet Connectivity</li>
+                                </ul>
+                            </div>
+                            <!--End col-sm-6-->
+                        </div>
+                        <!--End panel-body-->
+                    </div>
+                    <!--End collapseOne-->
+                </div>
+                <!--End of panel panel-default -->
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+                               aria-expanded="false" aria-controls="collapseTwo">
+                                Why design web sites and applications?
+                            </a>
+                        </h4>
+                    </div>
+                    <!--End id="headingTwo"-->
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            We believe in helping people get out on the web. The web can be a powerful form of <a href="#collapseTwo"
+                              title="Today more and more companies are going 100% on the Internet to reduce costs." id="the_future">
+                            communication and a great way to introduce people to your business. </a> Sometimes people just need a small helping hand
+                            building a simple page. Other times it’s a big application or ecommerce site.
+                        </div>
+                        <!--End panel-body-->
+                    </div>
+                    <!--End id collapseTwo-->
+                </div>
+                <!--End panel panel-default-->
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
+                               aria-expanded="false" aria-controls="collapseThree">
+                                Why the flying stuff?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            <a href="#collapseThree" title="A mile of highway will take you a mile, a mile of runway will take you anywhere."
+                               id="flying_quote">Terry is passionate about flying </a> and loves to share that with the world. Being a pilot also gives us
+                            the opportunity to cater to other pilots looking to build sites or applications for the web.
+                        </div>
+                    </div>
+                </div>
+            </div>
     </div>
-        <div class="panel-group learn-more-body" id="accordion" role="tablist" aria-multiselectable="true">
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingOne">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
-                           aria-controls="collapseOne">
-                            What kind of work do we do?
-                        </a>
-                    </h4>
-                </div>
-            </div>
-                <!--End of panel-heading class-->
-                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                    <div class="panel-body">
-                        <div class="col-sm-12">
-                            We mainly work on building <a href="#collapseOne" title="Using HTML5, CSS, Bootstrap, Jquery/Javascript, and Ruby on Rails" id="type_of_work">
-                            custom web sites and applications</a>, but if you have any computer
-                            system or network job please ask us if we can help you. Here are the following things we have
-                            experience with.
-                        </div>
-                        <!--End of col-sm-12-->
-                        <div class="col-sm-6 pull-right">
-                            <ul class="tech-lists">
-                                <li>Microsoft Active Directory</li>
-                                <li>Linux and Microsoft integrations</li>
-                                <li>Point of Sale Systems</li>
-                            </ul>
-                        </div>
-                        <!--End col-sm-6 pull-right-->
-                        <div class="col-sm-6">
-                            <ul class="tech-lists">
-                                <li>LAN and WAN environments</li>
-                                <li>Guest and secure wireless networks</li>
-                                <li>Internet Connectivity</li>
-                            </ul>
-                        </div>
-                        <!--End col-sm-6-->
-                    </div>
-                    <!--End panel-body-->
-                </div>
-                <!--End collapseOne-->
-            </div>
-            <!--End of panel panel-default -->
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingTwo">
-                    <h4 class="panel-title">
-                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
-                           aria-expanded="false" aria-controls="collapseTwo">
-                            Why design web sites and applications?
-                        </a>
-                    </h4>
-                </div>
-                <!--End id="headingTwo"-->
-                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                    <div class="panel-body">
-                        We believe in helping people get out on the web. The web can be a powerful form of <a href="#collapseTwo"
-                          title="Today more and more companies are going 100% on the Internet to reduce costs." id="the_future">
-                        communication and a great way to introduce people to your business. </a> Sometimes people just need a small helping hand
-                        building a simple page. Other times it’s a big application or ecommerce site.
-                    </div>
-                    <!--End panel-body-->
-                </div>
-                <!--End id collapseTwo-->
-            </div>
-            <!--End panel panel-default-->
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingThree">
-                    <h4 class="panel-title">
-                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
-                           aria-expanded="false" aria-controls="collapseThree">
-                            Why the flying stuff?
-                        </a>
-                    </h4>
-                </div>
-                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                    <div class="panel-body">
-                        <a href="#collapseThree" title="A mile of highway will take you a mile, a mile of runway will take you anywhere."
-                           id="flying_quote">Terry is passionate about flying </a> and loves to share that with the world. Being a pilot also gives us
-                        the opportunity to cater to other pilots looking to build sites or applications for the web.
-                    </div>
-                </div>
-            </div>
-        </div>
 </div>
 </main>
 <footer>

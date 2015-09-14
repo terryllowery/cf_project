@@ -19,7 +19,7 @@ $(document).ready(function() {
     var servicesRow = $(".services-row");
         for (var i = 0; i < servicesRow.length; ++i) {
             if (i%2 === 0) {
-            $(servicesRow[i]).css("background-color", "pink");
+            $(servicesRow[i]).css("background-color", "rgb(153, 204, 255)");
             }
         }
 
