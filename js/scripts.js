@@ -1,3 +1,9 @@
+var myKitties = [ { title: "First Project", pic: "img/coming-soon.jpg"},
+    { title: "Second Project", pic: "img/coming-soon.jpg"},
+    { title: "Third Project", pic: "img/coming-soon.jpg"},
+    { title: "Fourth Project", pic: "img/coming-soon.jpg"}
+];
+
 $(document).ready(function() {
     $(".message-box").css("background-color", "pink");
     $("#form-contact-message").on("keyup", function(){
@@ -31,4 +37,23 @@ $(document).ready(function() {
         $("#visible-comment").css("color", "red");
         return false;
     });
+
+
+    for (var i = 0; i < myKitties.length; ++i ) {
+        console.log("i is: " + i);
+        console.log("url = " + myKitties[i].pic);
+        console.log("id = " +  myKitties[i].title );
+        $("#" + i).css("background-image", "url(" + myKitties[i].pic + ")");
+
+    }
+
+    $(".image").mouseenter( function() {
+        console.info(this);
+        console.log(myKitties[this.id].title)
+        $(this).html("<p class='info'><span class='proj-title'>Title:</span> " + myKitties[this.id].title + "</p> ");
+        $("p.info").css("color", "rgb(255, 0, 0");
+    }).mouseleave( function() {
+        $('p.info').html("");
+    });
+
 });
