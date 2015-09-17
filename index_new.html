@@ -31,6 +31,8 @@
 <script src="js/jquery.media.js" type="text/javascript"></script>
 <!--scripts.js file-->
 <script src="js/scripts.js"></script>
+<!--Google maps api-->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCe0wBBjJbnmJtOAh7fbJx5TPE9OY_UD4c"></script>
 
 <!--Facebook java code-->
 <div id="fb-root"></div>
@@ -161,7 +163,7 @@
     </div>
 </article>
 <!-- End About container -->
-<div class="container anchor boxed-section" id="#work">
+<div class="container anchor boxed-section" id="work">
     <a href="http://rentaplane.org/">
         <h1>rentaplane.aero</h1>
     </a>
@@ -184,10 +186,19 @@
 <div class="container anchor" id="contact">
     <div class="row">
     <div class="col-lg-4 col-md-4">
-    <h1>Contact</h1>
-    <a href="tel:2103166720" class="glyphicon glyphicon-phone-alt"> Phone:(210)316-6720</a><br/>
-    <a href="mailto:terry@lowerytech.net" class="glyphicon glyphicon-envelope"> terry@lowerytech.net</a><br/>
-        <p id="visible-comment"></p>
+        <div id="map-canvas" style="height: 300px; width: 300px;"></div>
+            <!--<iframe-->
+                    <!--width="200"-->
+                    <!--height="200"-->
+                    <!--frameborder="0" style="border:0"-->
+                    <!--src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCe0wBBjJbnmJtOAh7fbJx5TPE9OY_UD4c-->
+                            <!--&q=Friedelstraße+40,+12047+Berlin,+Germany">-->
+            <!--</iframe>-->
+        <!--</div>-->
+        <h1>Contact</h1>
+        <a href="tel:2103166720" class="glyphicon glyphicon-phone-alt"> Phone:(210)316-6720</a><br/>
+        <a href="mailto:terry@lowerytech.net" class="glyphicon glyphicon-envelope"> terry@lowerytech.net</a><br/>
+            <p id="visible-comment"></p>
     </div>
     <form name="form-contact" method="post">
         <div class="col-lg-8 col-md-8">
@@ -203,14 +214,11 @@
                       title="Leave us feedback in this box."></textarea><br />
             <p id="char-count"></p>
             <button type="submit" class="btn btn-primary" id="submit-button">Submit information.</button>
-
         </div>
         </div>
     </form>
     </div>
-</div>
-
-<!-- End Contact container -->
+</div> <!-- End Contact container -->
 <div class="container anchor" id="faq">
     <div class="row">
         <h2 class="learn-more">Learn More</h2>
