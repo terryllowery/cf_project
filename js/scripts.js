@@ -20,7 +20,6 @@ $(document).ready(function() {
             $("#char-count").css("color", "white");
             console.info("charCount is currently: " + charCount);
         }
-
     });
     var servicesRow = $(".services-row");
         for (var i = 0; i < servicesRow.length; ++i) {
@@ -56,4 +55,14 @@ $(document).ready(function() {
         $('p.info').html("");
     });
 
+    function initialize() {
+        var mapOptions = {
+            center: new google.maps.LatLng(52.4918598,13.427565,18),
+            zoom: 8
+        };
+    var map = new google.maps.map(document.getElementById("maps-canas"), mapOptions);
+
+
+    };
+    google.maps.event.addDomListener(window, 'load', initialize);
 });
