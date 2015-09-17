@@ -48,7 +48,7 @@ $(document).ready(function() {
 
     $(".image").mouseenter( function() {
         console.info(this);
-        console.log(myKitties[this.id].title)
+        console.log(myKitties[this.id].title);
         $(this).html("<p class='info'><span class='proj-title'>Title:</span> " + myKitties[this.id].title + "</p> ");
         $("p.info").css("color", "rgb(255, 0, 0");
     }).mouseleave( function() {
