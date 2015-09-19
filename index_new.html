@@ -19,6 +19,8 @@
 
     <!-- Custom Stylesheet -->
     <link href="css/index.css" rel="stylesheet">
+    <!--Google maps api-->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCe0wBBjJbnmJtOAh7fbJx5TPE9OY_UD4c"></script>
 </head>
 <body data-spy="scroll" data-target=".navbar">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -26,13 +28,12 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 <!--index.js file-->
-<script src="js/index.js"></script>
+<script defer src="js/index.js"></script>
 <!--Jquery media script -->
 <script src="js/jquery.media.js" type="text/javascript"></script>
 <!--scripts.js file-->
-<script src="js/scripts.js"></script>
-<!--Google maps api-->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCe0wBBjJbnmJtOAh7fbJx5TPE9OY_UD4c"></script>
+<script defer src="js/scripts.js"></script>
+
 
 <!--Facebook java code-->
 <div id="fb-root"></div>
@@ -52,11 +53,11 @@
         <!-- End navbar-header -->
         <div class="navbar-collapse collapse">
             <ul class="nav nav-tabs">
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Work">Work</a></li>
-                <li><a href="#Contact">Contact</a></li>
-                <li><a href="#Faq">FAQ</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#faq">FAQ</a></li>
             </ul>
         </div>
         <!-- End of navbar-collapse collapse -->
@@ -186,16 +187,8 @@
 <div class="container anchor" id="contact">
     <div class="row">
     <div class="col-lg-4 col-md-4">
+        <h1>Contact us:</h1>
         <div id="map-canvas" style="height: 300px; width: 300px;"></div>
-            <!--<iframe-->
-                    <!--width="200"-->
-                    <!--height="200"-->
-                    <!--frameborder="0" style="border:0"-->
-                    <!--src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCe0wBBjJbnmJtOAh7fbJx5TPE9OY_UD4c-->
-                            <!--&q=Friedelstraße+40,+12047+Berlin,+Germany">-->
-            <!--</iframe>-->
-        <!--</div>-->
-        <h1>Contact</h1>
         <a href="tel:2103166720" class="glyphicon glyphicon-phone-alt"> Phone:(210)316-6720</a><br/>
         <a href="mailto:terry@lowerytech.net" class="glyphicon glyphicon-envelope"> terry@lowerytech.net</a><br/>
             <p id="visible-comment"></p>

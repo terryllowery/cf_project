@@ -37,14 +37,14 @@ body {
     margin-bottom: 10px;
 }
 #work {
-    height: 400px;
+    height: 600px;
     margin-bottom: 50px;
 }
 .image {
     box-sizing:border-box;
     border:2px solid pink;
-    width:200px;
-    height:200px;
+    width: 200px;
+    height:100px;
     margin:5px;
     display:inline-block;
     position:relative;
@@ -77,6 +77,10 @@ body {
 #contact textarea {
     resize: none;
     color: black;
+}
+#map-canvas {
+    height: 300px;
+    width: 300px;
 }
 .form-control {
     width: 80%;
